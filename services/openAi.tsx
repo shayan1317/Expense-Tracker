@@ -28,7 +28,7 @@ export async function parseExpense(userText) {
 
     const data = JSON.parse(completion?.choices[0].message.content || "");
     console.log("data", data);
-    return data;
+  return data;
   } catch (error) {
     console.error("Error parsing expense:", error);
   }
