@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://expense-tracker-backend-snowy-rho.vercel.app/api",
+  baseURL: "expense-tracker-backend-snowy-rho.vercel.app/api",
 });
 // const API = axios.create({
 //   baseURL: "http://localhost:3000/api",
